@@ -1,0 +1,25 @@
+---
+title: "report"
+author: "Guigo"
+date: "15/10/2019"
+output: pdf_document
+params:
+  n: NA
+---
+
+Bora fazer uma aplicação que avalie uma determinada empresa?
+
+O usuário colocaria as informações de sua empresa no inputs da aplicação para nossa inteligência a avalie como quer que a programarmos...
+
+Tenho pouca experiência nessa área, mas tenho certeza que o Gabriel Dias, Thiago e Carol podem me ajudar muito nessa aplicação.
+
+Haverão diversos parâmetros e metricas, mas o resultado seria algo mais elaborado que o seguinte:
+
+Sua empresa foi avaliada em R`$` `r params$n` 
+
+
+
+
+Documento produzido em `r Sys.Date()`
+
+LOGO Aquarela
